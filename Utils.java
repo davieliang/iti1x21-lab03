@@ -20,20 +20,33 @@ public class Utils {
   	if ( in == null || what == null || with == null ) {
   	    valid = false;
   	} else {
-  	    // more or less 16 lines missing
+  	    for(int i=0, i<in.length;i++){
+          if(in[i]==null){
+            valid = false;
+            break;
+          }
   	}
-
+    for(int i=.0;i<what.length;i++){
+      if(what[i]==null){
+        valid = false;
+        break;
+      }
+      
+    for(int i=0;i<with.length;i++){
+      if(with[i]==null){
+        valid = false;
+        break;
+      }
+    }
   	if ( valid ) {
   	    out = new String[ in.length ];
   	    for ( int i=0; i<in.length; i++ ) {
-  		      //more or less 10 lines missing
+          concat=concat.trim().replaceALL(what[i],with[i]):
+        }
+      the concat string
+        out=concat.split(" ");
+  		      
   	    }
-  	}
-    // Returning a reference to the newly created array that
-    // contains the same entries as 'in' except that all the
-    // occurrences of words from 'what' have been replaced by
-    // their corresponding occurrence from 'with'.
-
     return out;
   }
 }
