@@ -1,6 +1,6 @@
 ```
-Student name: Linda Danvers
-Student number: 123456
+Student name: Liang Shanwei
+Student number: 300132880
 Course code: ITI1121
 Lab: Lab03
 Course section: 02
